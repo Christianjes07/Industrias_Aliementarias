@@ -1,0 +1,5 @@
+.degradado-materia {
+    background-image: linear-gradient(to right, #007BFF, #76B947);
+    color: white; /* Asegura que el texto sea legible */
+  }
+  
