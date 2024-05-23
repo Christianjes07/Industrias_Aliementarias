@@ -7,4 +7,9 @@
   .navbar .navbar-nav .nav-link {
     color: #ffffff; /* Cambiar el color del texto a blanco */
   }
+
+  .degradado-fondo {
+    background: rgb(69, 1, 96);
+    background: linear-gradient(90deg, rgba(69,1,96,1) 0%, rgba(1,33,96,1) 85%, rgba(10,17,143,1) 100%);
+  }
   

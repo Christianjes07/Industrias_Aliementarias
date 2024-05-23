@@ -12,16 +12,25 @@ function Inicio() {
   const image1 = "./Imagenes/Img/P1.jpeg";
   const image2 = "./Imagenes/Img/p2.jpeg";
 
+
+      const myStyle = {
+        color: "white",
+    padding: "10px",
+    fontFamily: "Sans-Serif"
+
+      }
   
+      const myStyle2 = {
+        background: 'rgb(69, 1, 96)',
+        background: 'linear-gradient(90deg, rgba(69,1,96,1) 0%, rgba(1,33,96,1) 85%, rgba(10,17,143,1) 100%)'
+      }
 
   return (
     <div>
       <ImageNavbar />
       <Carrusel />
       <br></br>
-      <div className="container-fluid pt-5" style={{
-  marginTop: "60px"
-}}>
+      <div className="container-fluid pt-5" style={ myStyle2 }>
         <div className="row">
           <div className="col-sm-12 col-md-6">
             <div className="card-body">
@@ -30,21 +39,23 @@ function Inicio() {
           </div>
           <div className="col-sm-12 col-md-6">
 
-            <div className="container text-center pt-5" style={{ marginTop: '80px' }}>
-              <h2>Misión del Programa Educativo</h2>
-              <span style={{ color: "rgb(7, 4, 0)" }}>
+            <div className="container text-center pt-5 " style={{ marginTop: '80px' }} >
+              <h2 style={myStyle}>Misión del Programa Educativo</h2>
+              <span style={{ color: "white" }}>
               Formar Ingenieros en Industrias Alimentarias con habilidades, conocimientos tecnológicos y científicos, capaces de innovar, diseñar, optimizar y garantizar la calidad en los procesos de producción y transformación de productos alimentarios; con habilidades para tomar decisiones, trabajar en equipo, emprender y gestionar proyectos pertinentes en el área alimentaria, comprometidos con un desarrollo sostenible y apegado a valores humanísticos.
               </span>
             </div>
           </div>
         </div>
+      
+       
 
       <div className="container-fluid pt-5">
         <div className="row">
           <div className="col-sm-12 col-md-6">
              <div className="container text-center pt-5" style={{ paddingTop: '80px' }}>
-            <h2>Visión del Programa Educativo</h2>
-              <span style={{ color: "rgb(7, 4, 0)" }}>
+            <h2 style={myStyle}>Visión del Programa Educativo</h2>
+              <span style={{ color: "white" }}>
               El Programa Educativo Ingeniería en Industrias Alimentarias, del Instituto Tecnológico Superior Zacatecas Norte, será reconocido por la calidad humana y profesional de los egresados, con una alta aceptación en el campo laboral; formados en un programa acreditado que se fortalece con cuerpos y redes académicas consolidadas, que contribuyen en la investigación, generación y desarrollo de habilidades, para el diseño de alimentos, procesos seguros e innovadores, participando activamente con el sector productivo, en el desarrollo regional y nacional, con enfoque sostenible.              </span>
             </div>
           </div>
@@ -52,6 +63,7 @@ function Inicio() {
 
            <div className="card-body">
             <img src={image2} alt="Descripción de la imagen" style={{ width: "800px", height: "600px" }} className="img-fluid" />
+            <br></br>
 
             
             </div>
@@ -60,14 +72,14 @@ function Inicio() {
       </div>
       </div>
 
+      <div> <Egresado /></div>
+
       <div className="container-fluid bg-success-subtle text-center" style={{
-  background: 'rgb(69,1,96)',
-  background: 'linear-gradient(90deg, #003366 0%, #66CCCC 50%, #003366 100%)',
-  marginTop:"60px"
+  marginTop:"60px", ...myStyle2
 }}>
       <div className="row">
 		<div className="col-sm-12 col-md-12">
-  <h2 className="text-center">En ITSZN queremos que estudiar la Ingenieria en Industrias Alimentarias sea una decisión en la que valga la pena invertir.</h2>
+  <h2 className="text-center" style={{color:"white", margin:'10px'}}>En ITSZN queremos que estudiar la Ingenieria en Industrias Alimentarias sea una decisión en la que valga la pena invertir.</h2>
   <div className="container ">
     <table className="table table-borderless" style={{color: 'white'}}>
       <thead>
@@ -103,15 +115,13 @@ function Inicio() {
       
         
    <div>
-      <Egresado />
+     
       <Video />
 
 <br></br>
 
        <div className="container-fluid bg-success-subtle text-center" style={{
-  background: 'rgb(69,1,96)',
- background: 'linear-gradient(135deg, #4286f4, #373B44)',
-   marginTop:"60px"
+   marginTop:"60px", ...myStyle2
 }}> 
 <br></br>
   <h2 className="text-center" style={{ color: '#ffffff' , marginTop:"40px" }}>Empleabilidad</h2>
@@ -147,23 +157,17 @@ function Inicio() {
 </div>
 
    
-<div className="container text-center pt-5" style={{ marginTop: '10px' }}>
-            <h4 className="text-center" style={{ color: "black" }}>
-          Las nuevas tendencias en la Industria Alimentaria dirigen a la alimentación inteligente.
-          Apartando al consumidor a protegerse de enfermedades, los profesionales de
-          Ingeniería en Industrias Alimentarias son quienes aportan con sólidos conocimientos.
-        </h4>
+<div className="container-fluid text-center pt-5" style={{ marginTop: '10px',}}>
+            <h2 className="text-center" style={{ color: "black" }}>
+        ¿Te identificas?
+        </h2>              
+        <p className="text-center" style={{ fontSize: '20px' }}>Si te interesa las industrias alimentarias, el trabajo de laboratorio como un espacio de creatividad e innovación y quieres aportar al bienestar de las personas, la carrera de Industrias alimentarias puede ser tu camino.</p>
             </div>
           </div>
 
   
 
-<div className="container-fluid pt-5">
-  <div className="card-body d-flex justify-content-center">
-  <img src="./Imagenes/Img/dieseño-higiénico-linmot-ft.-blog-1.webp" alt="Descripción de la imagen" style={{ width: "800px", height: "260px" }} />
-      <img src="./Imagenes/Img/CabezaItszn.jpg" alt="Descripción de la segunda imagen" style={{ width: "800px", height: "260px" }} />
-  </div>
-        
+
 
             
 
@@ -176,8 +180,8 @@ function Inicio() {
         
     
 
-      </div>
-      <br></br>
+    
+    
 
       <Footer />
       </div>

@@ -21,7 +21,7 @@ function Footer() {
   loading="lazy"
   referrerPolicy="no-referrer-when-downgrade"></iframe>
                 <a style={{ color: 'black' }}><img src="./public/svg/llamada-telefonica.png"alt="informacion" width="30" /> (498) 488 30 02</a>
-                <a href="mailto:contacto@itszn.edu." style={{ color: 'black' }}><img src="./public/svg/gmail.png" alt="informacion" width="30" /> Contacto itszn.</a>
+                <a href="mailto:contacto@itszn.edu." style={{ color: 'black' }}><img src="./public/svg/gmail.png" alt="informacion" width="30" /> </a>
               </div>
             </div>
           </div>
@@ -36,7 +36,9 @@ function Footer() {
                 <a href="https://www.instagram.com/industriasalimentariasitszn/"><img src="./public/svg/instagram.png" alt="Instagram" width="50" /></a>
                 <a href="https://www.facebook.com/profile.php?id=100090230202873"><img src="./public/svg/face.png" alt="facebook" width="50" /></a>
                 <a href="https://www.tiktok.com/@industriasalimentarias23"><img src="./public/svg/tiktok.png" alt="Instagram" width="50" /></a>
-                <a href="mailto:contacto@itszn.edu." style={{ color: 'black' }}><img src="./public/svg/gmail.png" alt="informacion" width="50" /> Contacto División</a>
+                <a href="mailto:contacto@itszn.edu." style={{ color: 'black' }}><img src="./public/svg/gmail.png" alt="informacion" width="50" /></a>
+                <a href="https://wa.me/4331088527" style={{ color: 'black' }}><img src="./public/svg/llamada-telefonica.png"alt="informacion" width="40" /> Mandanos mensaje!</a>
+
 
               </div>
             </div>

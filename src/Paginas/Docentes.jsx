@@ -2,15 +2,22 @@ import React from 'react';
 import Footer from '../Componentes/Footer';
 import './docentes.css'
 
+
+
+const myStyle2 = {
+  background: 'rgb(69, 1, 96)',
+  background: 'linear-gradient(90deg, rgba(69,1,96,1) 0%, rgba(1,33,96,1) 85%, rgba(10,17,143,1) 100%)'
+}
+
 function Docentes() {
   return (
 
   
-<div>
+<div >
     <div>
       <br></br>
   
-    <div className="container-fluid pt-5">
+    <div className="container-fluid pt-5" >
       <div className="row justify-content-center">
         <div className="col-12 col-sm-8 col-lg-6">
           {/* Section Heading*/}
@@ -38,8 +45,11 @@ function Docentes() {
             {/* Team Details*/}
             <div className="single_advisor_details_info">
               <h6>Ing. Marco Antonio González Arellano</h6>
-              <p className="designation">Licenciatura: Ingeniero Agrónomo en la Universidad Autónoma de Zacatecas.</p>
+              
+          <p className="designation">Licenciatura: Ingeniero Agrónomo en la Universidad Autónoma de Zacatecas.</p>
+           <br></br>  <br></br>  <br></br>
             </div>
+
           </div>
         </div>
         {/* Single Advisor*/}
@@ -59,6 +69,7 @@ function Docentes() {
             <div className="single_advisor_details_info">
               <h6>M.C. Manuel Juárez García</h6>
               <p className="designation">Licenciatura: Ingeniero Agrónomo en la Universidad de Guadalajara y Maestría en Agricultura en la Universidad de Sonora.</p>
+              <br></br>  <br></br>
             </div>
           </div>
         </div>
@@ -79,6 +90,7 @@ function Docentes() {
             <div className="single_advisor_details_info">
               <h6>Dr. Carlos Martin Enriquez Castro</h6>
               <p className="designation">Licenciatura: Ingeniero Industrial Químico en el Tecnológico de Chihuahua Maestría en Ingeniería Bioquímica en el Tecnológico de Durango Doctorado en ciencias de los alimentos, Licenciatura en granos y cereales en la Universidad de Sonora.</p>
+          
             </div>
           </div>
         </div>
@@ -99,6 +111,7 @@ function Docentes() {
             <div className="single_advisor_details_info">
               <h6>Ing. Mayra Pamela Soto Martínez</h6>
               <p className="designation">Licenciatura: Ingeniero en Industrias Alimentarias en el Instituto Tecnológico Superior Zacatecas Norte.</p>
+              <br></br>  <br></br>  
             </div>
           </div>
         </div>
@@ -120,6 +133,7 @@ function Docentes() {
             <div className="single_advisor_details_info">
               <h6>Ing. Francisco Ramírez García</h6>
               <p className="designation">Licenciatura: Ingeniero Químico en la Universidad Autónoma de Zacatecas.</p>
+              <br></br>  <br></br>  <br></br>  <br></br>  
             </div>
           </div>
         </div>
@@ -162,6 +176,7 @@ function Docentes() {
             <div className="single_advisor_details_info">
               <h6>M.C. Eleno Samaniego Cruz</h6>
               <p className="designation">Licenciatura: Ingeniero Agrónomo con Licenciatura en Filotecnia en la Universidad Autónoma Chapingo Maestría en Ciencias en Horticultura en la Universidad Autónoma Agraria Antonio Narro, Saltillo, Coahuila.</p>
+              <br></br>  <br></br>
             </div>
           </div>
         </div>
@@ -182,6 +197,8 @@ function Docentes() {
             <div className="single_advisor_details_info">
               <h6>M. en A. Francisco Javier Cruz Guillén</h6>
               <p className="designation">Licenciatura: Ingeniero Agrónomo con Licenciatura en Zootecnia en la Universidad Autónoma Chapingo Maestría en Administración con perfil en Agronegocios en la Universidad Autónoma de Zacatecas.</p>
+            
+              <br></br>  <br></br>
             </div>
           </div>
         </div>
@@ -245,8 +262,9 @@ function Docentes() {
             </div>
             {/* Team Details*/}
             <div className="single_advisor_details_info">
-              <h6>Ingeniero Federico Garcia</h6>
+              <h6>Ingeniero Federico Garcia Mendoza</h6>
               <p className="designation">Licenciatura: Ingeniero Agroindustrial en el Instituto Tecnológico Superior Zacatecas Norte.</p>
+              <br></br>  <br></br>
             </div>
           </div>
         </div>

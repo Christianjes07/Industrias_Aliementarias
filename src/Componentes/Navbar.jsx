@@ -26,11 +26,17 @@ function NavbarComponent() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         {/* Enlaces de las páginas en el centro */}
         <ul className="navbar-nav mx-auto">
-          <li className="nav-item " >
-            <Link className="nav-link" to="/eventos">
-              Noticias y Eventos
-            </Link>
-          </li>
+         
+
+             <li className="nav-item dropdown">
+      <a className="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+        Noticias y Eventos
+      </a>
+      <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <li><Link className="dropdown-item"  to="/eventos">Noticias</Link></li>
+        <li><Link className="dropdown-item" to="/actividades">Eventos</Link></li>
+      </ul>
+    </li>
 
           <li className="nav-item dropdown">
       <a className="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">

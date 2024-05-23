@@ -9,6 +9,7 @@ import Galeria from './Paginas/Galeria';
 import Instalaciones from './Paginas/Instalaciones';
 import Conocenos from './Paginas/Conocenos';
 import Admision from './Paginas/Admision';
+import Actividades from './Paginas/Actividades';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path='/instalaciones' element={<Instalaciones/>}></Route>
           <Route path='/conocenos' element={<Conocenos/>}></Route>
           <Route path='/admision' element={<Admision/>}></Route>
+          <Route path='/actividades' element={<Actividades/>}></Route>
 
 
 

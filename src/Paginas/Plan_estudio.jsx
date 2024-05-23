@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import './materias.css'
+
 // Datos de las materias por semestre
+
+
+
 const materiasPorSemestre = [
   {
     titulo: 'Semestre 1',

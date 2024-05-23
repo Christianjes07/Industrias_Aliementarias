@@ -5,8 +5,8 @@ function PubFb() {
     const imageUrl = "./Imagenes/Img/F1.jpg";
 
     // Establece el ancho y alto deseados para la imagen
-    const width = '300px';
-    const height = '300px';
+    const width = '350px';
+    const height = '400px';
 
     return (
         <div className="card text-center">
@@ -27,8 +27,8 @@ function OtraFuncion() {
     const imageUrl = "./Imagenes/Img/F2.jpg";
 
     // Establece el ancho y alto deseados para la imagen
-    const width = '300px';
-    const height = '300px';
+    const width = '350px';
+    const height = '400px';
 
     return (
         <div className="card text-center">
@@ -50,8 +50,9 @@ function OtraFuncion1(){
     const imageUrl = "./Imagenes/Img/F7.jpg";
 
     // Establece el ancho y alto deseados para la imagen
-    const width = '300px';
-    const height = '300px';
+    const width = '350px';
+    const height = '400px';
+
 
     return (
         <div className="card text-center">
@@ -74,8 +75,9 @@ function OtraFuncion2(){
     const imageUrl = "./Imagenes/Img/f4.jpg";
 
     // Establece el ancho y alto deseados para la imagen
-    const width = '300px';
-    const height = '300px';
+    const width = '350px';
+    const height = '400px';
+
 
     return (
         <div className="card text-center">
@@ -94,8 +96,9 @@ function OtraFuncion2(){
 function OtraFuncion3 (){
     const facebookPostUrl = 'https://www.facebook.com/difusion.itszn/posts/pfbid07Z9sH6SvxUkTrECtLyzqVp7AAjcmEUnUxJnLPGawH6WyYVvfjgtnB38DqffK8J64l';
     const imageUrl = "./Imagenes/Img/F6.jpg";
-    const width = '300px';
-    const height = '300px';
+    const width = '350px';
+    const height = '400px';
+
 
     return(
         <div className="card text-center">
@@ -115,8 +118,9 @@ function OtraFuncion3 (){
 function OtraFuncion4 (){
     const facebookPostUrl = 'https://www.facebook.com/difusion.itszn/posts/pfbid0bK28drdotkhAQQTSLj5ZDKoequN5dT28qeGVQ75WQCz8XFYYt5NVCgDs76YPTEmZl';
     const imageUrl = "./Imagenes/Img/F5.jpg";
-    const width = '300px';
-    const height = '300px';
+    const width = '350px';
+    const height = '400px';
+
 
     return(
         <div className="card text-center">
@@ -136,8 +140,9 @@ function OtraFuncion4 (){
 function OtraFuncion5 (){
     const facebookPostUrl = 'https://www.facebook.com/difusion.itszn/posts/pfbid0t4SmZ4HKREqPNYfhuzA8gcSR8h9pkzRhqbNP5bsuGXwxH24uC2j6Di4aAa9nWeGpl';
     const imageUrl = "./Imagenes/Img/F8.jpg";
-    const width = '300px';
-    const height = '300px';
+    const width = '350px';
+    const height = '400px';
+
 
     return(
         <div className="card text-center">
@@ -157,8 +162,9 @@ function OtraFuncion5 (){
 function OtraFuncion6 (){
     const facebookPostUrl = 'https://www.facebook.com/difusion.itszn/posts/pfbid0296NwJPj3MqVfTiiAvx78uXRoNg8KcNViAw4fG4CyEe65P7vV64JW7t458XBgFWJjl';
     const imageUrl = "./Imagenes/Img/F9.jpg";
-    const width = '300px';
-    const height = '300px';
+    const width = '350px';
+    const height = '400px';
+
 
     return(
         <div className="card text-center">
@@ -178,8 +184,9 @@ function OtraFuncion6 (){
 function OtraFuncion7 (){
     const facebookPostUrl = 'https://www.facebook.com/difusion.itszn/posts/pfbid02UJkx1BQEbxTNABmKTfR3UcWxScYW2D5SWbJsABpcz622gAUYdEaiG3UtEPML8CZul';
     const imageUrl = "./Imagenes/Img/F10.jpg";
-    const width = '300px';
-    const height = '300px';
+    const width = '350px';
+    const height = '400px';
+
 
     return(
         <div className="card text-center">

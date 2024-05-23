@@ -1,0 +1,20 @@
+{
+  "name": "Industrias Alimentarias ITSZN",
+  "short_name": "IAITSZN",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/src/Industrias_Perfil.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/src/Industrias_Perfil.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ]
+}
